@@ -1,0 +1,29 @@
+header {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+} 
+.customer {
+    margin: 1rem;
+}  
+    
+.name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.email {
+    font-size: smaller;
+    color: gray;
+}
+
+.pic {
+    height: 5rem;
+    width: 5rem;
+}
