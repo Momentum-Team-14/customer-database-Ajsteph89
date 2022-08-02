@@ -24,6 +24,7 @@ function showCustomerName(customerArray) {
 //city,state,zip
         let stateAbbrev = nameToAbbr (`${customer.location.state}`)
         let stateDiv = document.createElement('div')
+        stateDiv.classList.add('state')
         stateDiv.innerText = `${customer.location.city} ${stateAbbrev} ${customer.location.postcode}` 
 //DOB
         let birthDate = new Date(`${customer.dob.date}`).toLocaleDateString('en-us', { year:"numeric", month:"short", day:"numeric"})
